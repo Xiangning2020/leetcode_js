@@ -7,7 +7,6 @@ var climbStairs1 = function (n) {
   if (n == 2) return 2;
 
   let count = [];
-
   count[1] = 1;
   count[2] = 2;
   for (let i = 3; i <= n; i++) {
